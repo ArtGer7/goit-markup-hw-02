@@ -1,0 +1,235 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2e2f42;
+    background: #ffffff;
+}
+
+/* _____________HEADER______________ */
+
+.list {
+    list-style: none;
+}
+
+.link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: inherit;
+}
+
+.link:hover,
+.link:focus,
+.link:active {
+    color: #4d5ae5;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo-link, 
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33;
+    color: inherit;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+}
+
+.navigation-contact-info:hover,
+.navigation-contact-info:focus,
+.navigation-contact-info:active {
+    color: #4d5ae5;
+}
+
+.navigation-contact-info {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    list-style-type: none;
+    color: #434455;
+    text-decoration: none;
+}
+
+/* ________________MAIN________________ */
+
+.hero {
+    background-color: #2e2f42;
+}
+
+.hero-title {
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    }
+
+.btn {
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+}
+
+.hero-btn {
+    line-height: 1.18;
+    color: #ffffff;
+    background: #4d5ae5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.hero-btn:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+     0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.hero-btn:active {
+    background: #404bbf;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* ______________FEATURES_____________ */
+
+.features-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.features-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* ___________WHAT ARE WE DOING________ */
+
+.section-title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+/* _____________OUR TEAM____________ */
+
+.team-section {
+    background: #f4f4fd;
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.team-item {
+    background: #ffffff;
+    box-shadow: 0px 1px 6px rgb(46 47 66 / 8%), 0px 1px 1px rgb(46 47 66 / 16%), 0px 2px 1px rgb(46 47 66 / 8%);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-worker,
+.portfolio-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.team-profession,
+.portfolio-list-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* ___________FOOTER__________ */
+
+.footer {
+    background: #2e2f42;
+}
+
+.logo-web {
+    color: #4d5ae5;
+}
+
+.logo-footer {
+    color: #f4f4fd;
+}
+
+.footer-message {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #e7e9fc;
+}
+    
+/* ---------------------------------------------- */
+/* --------------------PORTFOLIO----------------- */
+/* ---------------------------------------------- */
+
+/* ___________FILTERS__________ */
+
+.portfolio-btn {
+    line-height: 1.5;
+    padding: 8px 16px;
+    color: #4d5ae5;
+    background: #f4f4fd;
+    border: 1px solid #e7e9fc;
+}
+
+.portfolio-btn:hover {
+    color: #ffffff;
+    background: #4d5ae5;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.btn {
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+}
+
+/* ___________GALERY__________ */
+
+.portfolio-section {
+    margin-bottom: 120px;
+}
+
+.portfolio-item {
+    margin-bottom: 48px;
+    margin-right: 24px;
+    width: 360px;
+    height: 420px;
+    background: #ffffff;
+    border: 0.5px solid #f4f4fd;
+    box-shadow: 0px 1px 6px rgb(46 47 66 / 8%);
+}
+
